@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+body > main { 
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'lexend Deca';
+    sans-serif;
+    font-weight: 400;
+}
+
+body main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    margin: 2rem;
+    overflow: hidden; 
+}
+
+.conteiner2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    margin: 2rem;
+    overflow: hidden; 
+}
+
+.conteiner3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    margin: 2rem;
+    overflow: hidden; 
+}
+
+.container {
+background: hsl(31, 77%, 52%);
+}
+
+.container2 {
+    background: hsl(184, 100%, 22%);
+}
+
+.container3 {
+    background: hsl(179, 100%, 13%);
+}
+
+.container {
+    padding: 50px;
+}
+
+.container2 {
+    padding: 50px;
+}
+
+.container3 {
+    padding: 50px;
+}
+
+.container > h1 {
+    color: white;
+    font-family:'big shoulders Display',
+    cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.container2 > h1 {
+    color: rgb(255, 255, 255);
+    font-family:'big shoulders Display',
+    cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.container3 > h1 {
+    color: hsl(0, 0%, 95%);
+    font-family:'big shoulders Display',
+    cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.container p {
+    color: hsl(0, 0%, 95%);
+    line-height: 1.6;
+}
+
+.container2 p {
+    color: hsl(0, 0%, 95%);
+    line-height: 1.6;
+}
+
+.container3 p {
+    color: hsl(0, 0%, 95%);
+    line-height: 1.6;
+}
+
+.conteiner p,a {
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 26px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out;
+}
+
+.conteiner2 p,a {
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 26px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out;
+}
+
+.conteiner3 p,a {
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 26px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) ease-in-out;
+}
+
+.conteiner p,.container a {
+    color: hsl(31, 77%, 52%);
+}
+
+.conteiner2 p,.container2 a {
+   color: hsl(184, 100%, 22%);;
+}
+
+.conteiner3 p,.container3 a {
+    color: hsl(179, 100%, 13%);
+}
+
+.conteiner p,.container a:hover {
+    color:hsl(0, 0%, 95%);
+    background-color:transparent;
+}
+
+.conteiner2 p,.container2 a:hover {
+    color:hsl(0, 0%, 95%);
+    background-color:transparent;
+}
+
+.conteiner3 p,.container3 a:hover {
+    color:hsl(0, 0%, 95%);
+    background-color:transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper{ 
+    grid-template-columns: 1fr;
+    }    
+}
+
+@media only screen and (max-width: 425px) {
+    .wrapper{ 
+    margin: 2rem .5rem;
+    }    
+}
